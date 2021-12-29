@@ -22,7 +22,7 @@ const NavigateCard = () => {
                 <View>
                 <GooglePlacesAutocomplete
                     styles={toInputBoxStyles} 
-                    placeholder="Where To?"
+                    placeholder="Enter Destination"
                     debounce={400}
                     nearbyPlacesAPI="GooglePlacesSearch"
                     enablePoweredByContainer={false}
